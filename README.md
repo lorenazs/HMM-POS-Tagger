@@ -1,12 +1,11 @@
-#Basic Hidden Markov Model for POS Tagging
+# Basic Hidden Markov Model for POS Tagging
  
  This repo contains the final submission for the 1st project, in the Natural Language Processing Nanodegree Program (udacity).
  The main steps and activities implemented are:
  
  **Step1 - Read and pre process the data**  
   
- * Read the dataset from XXX
- And exploring it through the Dataset class (provided by udacity), giving easy access to partitions of the data for testing and training.  Some activities in this step:  
+ * Read the dataset from the Brown corpus and exploring it through the Dataset class (provided by udacity), giving easy access to partitions of the data for testing and training.  Some activities in this step:  
  * counting unique words in the dataset vocabulary
  * accessing words and tag sequences, for a given sentence obtain its corresponding tags
  * acceding pairs (word-tags)
